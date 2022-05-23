@@ -1,0 +1,64 @@
+@import '../../style/variables.scss';
+@import '../../style/button.scss';
+
+.random__char {
+  display: flex;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  &_img {
+    margin: 0 25px 0 0;
+  }
+  &_btn-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 39px 0 0;
+    margin: 21px 0 0 0;
+  }
+  &_left {
+    padding: 35px 40px;
+    display: flex;
+    width: 50%;
+    & h2 {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 22px;
+      line-height: 26px;
+    }
+    & p {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin: 15px 0 0 0;
+    }
+  }
+  &_right {
+    position: relative;
+    background: $dark-color;
+    width: 50%;
+    padding: 35px 40px;
+    & h2 {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      color: #FFFFFF;
+    }
+    &-text {
+      margin: 0 0 42px 0;
+    }
+    & a {
+      margin: 15px 0 0 0;
+    }
+  }
+}
+
+.hummer-img {
+  position: absolute;
+  max-width: 160px;
+  top: 45px;
+  right: 10px;
+}

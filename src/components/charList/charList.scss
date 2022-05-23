@@ -1,0 +1,38 @@
+@import '../../style/variables.scss';
+
+.char__list {
+  &_items {
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 650px;
+    justify-content: space-between;
+  }
+
+  &_item {
+    background: $dark-color;
+    color: white;
+    width: 200px;
+    height: 318px;
+    margin: 0 0 20px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    &:hover {
+      cursor: pointer;
+      box-shadow: 5px 5px 10px rgba(171, 3, 3, 0.4);
+    }
+  }
+
+  &_header {
+    margin: 15px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  &_btn {
+    margin: 20px 0 40px 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../style/variables.scss';
+
+.btn {
+  display: inline-block;
+  background: $main-red;
+  height: 38px;
+  width: 101px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 11px 0 0 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  clip-path: polygon(15% 0, 100% 0, 100% 65%, 85% 100%, 0 100%, 0 35%);
+  transition-duration: 0.2s;
+
+  &:hover {
+    background: rgb(108, 23, 23);
+    text-decoration: underline;
+  }
+}
+
+.gray__btn {
+  background: $main-gray;
+  &:hover {
+    background: rgb(61, 61, 61);
+  }
+}
+
+.big-btn {
+  width: 170px;
+  clip-path: polygon(8% 0, 100% 0, 100% 65%, 92% 100%, 0 100%, 0 35%);
+}
